@@ -1,0 +1,98 @@
+/* Basic page setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+    background-color: #f6f1ea;
+    color: #2f2f2f;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #8b6f7d;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #6b7a8f;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #b48b57;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Form fields */
+input,
+textarea,
+button {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+}
+
+/* Buttons */
+button {
+    background-color: #6b7a8f;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b48b57;
+}
+
+/* Navigation bar */
+header {
+    background-color: #1d2235;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+}
+
+/* Section boxes */
+section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* Center section titles */
+h1,
+h2 {
+    text-align: center;
+}
